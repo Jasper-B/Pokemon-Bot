@@ -1,0 +1,48 @@
+# Bot Setup
+bot_mode: starters
+# spin
+# sweet scent
+# bunny hop
+# coords
+# bonk
+# fishing
+# starters
+# rayquaza
+# groudon
+# kyogre
+# southern island
+# mew
+# regis
+# deoxys runaways
+# deoxys reset
+# fossil
+# castform
+# beldum
+# johto starters
+# buy premier balls
+coords:
+  pos1:
+    - 139
+    - 846
+  pos2:
+    - 145
+    - 846
+direction: Horizontal
+# Vertical
+# Horizontal
+starter: Turtwig
+# Turtwig
+# Chimchar
+# Piplup
+
+# User Interface
+ui:
+  enable: true
+  width: 1280
+  height: 720
+
+# Wild Battles
+manual_catch: false
+catch_shinies: true
+battle_others: false
+save_game_after_catch: true

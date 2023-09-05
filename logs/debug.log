@@ -1,0 +1,1351 @@
+2023-07-04 16:30:41,314 INFO get_config(line:39) Config is valid!
+2023-07-04 16:30:41,314 INFO <module>(line:69) Mode: coords
+2023-07-04 16:30:41,315 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:30:41,832 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:30:43,057 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:30:43,615 INFO opponent_changed(line:35) Opponent has changed! Previous PID: None, New PID: 576258835
+2023-07-04 16:30:43,615 INFO encounter_pokemon(line:53) Identifying Pokemon...
+2023-07-04 16:30:43,615 ERROR main_loop(line:36) 'species'
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\Renegade_platinum_bot.py", line 26, in main_loop
+    mode_coords()
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\General.py", line 21, in mode_coords
+    follow_path([(pos1[0], pos1[1]), (pos2[0], pos2[1])])
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Navigation.py", line 65, in follow_path
+    encounter_pokemon()
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 70, in encounter_pokemon
+    print(pokemon["species"])
+          ~~~~~~~^^^^^^^^^^^
+KeyError: 'species'
+2023-07-04 16:30:43,616 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:30:44,837 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:30:46,119 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:30:47,402 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:30:48,700 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:30:49,984 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:30:51,268 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:30:52,552 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:30:53,834 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:30:55,116 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:30:56,398 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:30:57,682 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:30:58,965 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:00,250 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:01,532 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:02,816 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:04,098 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:05,383 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:06,666 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:07,954 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:09,240 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:10,525 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:11,812 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:13,098 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:14,384 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:15,670 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:16,956 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:18,243 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:19,529 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:20,812 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:22,098 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:23,382 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:24,663 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:25,951 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:27,237 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:28,525 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:29,811 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:31,103 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:32,387 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:33,673 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:34,967 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:36,254 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:37,539 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:38,825 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:40,108 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:41,394 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:42,679 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:43,963 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:45,249 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:46,532 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:31:47,818 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:42:12,358 INFO <module>(line:82) Running pokebot on Python 3.11
+2023-07-04 16:42:12,360 INFO get_config(line:46) Config is valid!
+2023-07-04 16:42:12,360 INFO <module>(line:91) Mode: coords
+2023-07-04 16:42:12,360 INFO opponent_changed(line:35) Opponent has changed! Previous PID: None, New PID: 576258835
+2023-07-04 16:42:12,361 INFO encounter_pokemon(line:53) Identifying Pokemon...
+2023-07-04 16:42:12,361 ERROR main_loop(line:36) 'species'
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\Renegade_platinum_bot.py", line 26, in main_loop
+    mode_coords()
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\General.py", line 22, in mode_coords
+    encounter_pokemon()
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 70, in encounter_pokemon
+    print(pokemon["species"])
+          ~~~~~~~^^^^^^^^^^^
+KeyError: 'species'
+2023-07-04 16:42:12,362 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:42:13,580 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:42:14,861 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:42:16,146 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:42:17,427 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:42:18,707 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:42:19,993 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:42:21,275 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:42:22,559 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:42:23,847 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:42:25,130 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:43:40,745 INFO <module>(line:82) Running pokebot on Python 3.11
+2023-07-04 16:43:40,747 INFO get_config(line:46) Config is valid!
+2023-07-04 16:43:40,747 INFO <module>(line:91) Mode: coords
+2023-07-04 16:43:40,747 INFO opponent_changed(line:35) Opponent has changed! Previous PID: None, New PID: 576258835
+2023-07-04 16:43:40,748 INFO encounter_pokemon(line:53) Identifying Pokemon...
+2023-07-04 16:43:40,748 ERROR main_loop(line:36) 'shiny_value'
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\Renegade_platinum_bot.py", line 26, in main_loop
+    mode_coords()
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\General.py", line 22, in mode_coords
+    encounter_pokemon()
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 74, in encounter_pokemon
+    if pokemon["shiny_value"] <= 25000:
+       ~~~~~~~^^^^^^^^^^^^^^^
+KeyError: 'shiny_value'
+2023-07-04 16:43:40,749 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:43:41,966 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:43:43,247 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:43:44,527 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:43:45,812 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:43:47,092 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:44:19,110 INFO <module>(line:82) Running pokebot on Python 3.11
+2023-07-04 16:44:19,112 INFO get_config(line:46) Config is valid!
+2023-07-04 16:44:19,112 INFO <module>(line:91) Mode: coords
+2023-07-04 16:44:19,112 INFO opponent_changed(line:35) Opponent has changed! Previous PID: None, New PID: 576258835
+2023-07-04 16:44:19,112 INFO encounter_pokemon(line:53) Identifying Pokemon...
+2023-07-04 16:44:19,113 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:44:22,940 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:44:23,189 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:44:23,645 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:44:24,330 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:44:24,809 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:44:26,029 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:44:26,484 INFO opponent_changed(line:35) Opponent has changed! Previous PID: 576258835, New PID: 432654723
+2023-07-04 16:44:26,484 INFO encounter_pokemon(line:53) Identifying Pokemon...
+2023-07-04 16:44:26,484 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:44:34,682 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:44:35,264 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:44:36,482 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:44:37,060 INFO opponent_changed(line:35) Opponent has changed! Previous PID: 432654723, New PID: 1162468189
+2023-07-04 16:44:37,060 INFO encounter_pokemon(line:53) Identifying Pokemon...
+2023-07-04 16:44:37,061 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:44:45,044 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:44:45,272 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:44:45,748 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:44:46,245 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:44:47,470 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 16:44:48,236 INFO opponent_changed(line:35) Opponent has changed! Previous PID: 1162468189, New PID: 896466997
+2023-07-04 16:44:48,236 INFO encounter_pokemon(line:53) Identifying Pokemon...
+2023-07-04 16:44:48,237 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:47:01,953 INFO <module>(line:82) Running pokebot on Python 3.11
+2023-07-04 16:47:01,965 INFO get_config(line:46) Config is valid!
+2023-07-04 16:47:01,965 INFO <module>(line:91) Mode: coords
+2023-07-04 16:47:01,965 INFO opponent_changed(line:35) Opponent has changed! Previous PID: None, New PID: 896466997
+2023-07-04 16:47:01,966 INFO encounter_pokemon(line:53) Identifying Pokemon...
+2023-07-04 16:47:01,966 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:47:05,800 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:47:06,212 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:47:06,669 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:47:08,687 INFO opponent_changed(line:35) Opponent has changed! Previous PID: 896466997, New PID: 2960650695
+2023-07-04 16:47:08,687 INFO encounter_pokemon(line:53) Identifying Pokemon...
+2023-07-04 16:47:08,687 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:47:16,802 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:47:16,988 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:47:18,766 INFO opponent_changed(line:35) Opponent has changed! Previous PID: 2960650695, New PID: 3124431153
+2023-07-04 16:47:18,766 INFO encounter_pokemon(line:53) Identifying Pokemon...
+2023-07-04 16:47:18,766 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:54:51,785 INFO <module>(line:82) Running pokebot on Python 3.11
+2023-07-04 16:54:51,786 INFO get_config(line:46) Config is valid!
+2023-07-04 16:54:51,786 INFO <module>(line:91) Mode: coords
+2023-07-04 16:54:51,787 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:51,787 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:54:51,787 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:51,808 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:51,829 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:51,851 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:51,872 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:51,893 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:51,915 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:51,936 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:51,958 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:51,979 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,000 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,021 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,042 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,063 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,102 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,123 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,145 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,166 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,187 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,208 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,229 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,250 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,272 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,293 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,314 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,335 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,366 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,388 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,409 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,431 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,452 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,473 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,495 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,515 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,536 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,558 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,579 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,600 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,621 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,642 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,664 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,685 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,706 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,742 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,764 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,784 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,806 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,827 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,848 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,869 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,890 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,912 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,933 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,954 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:52,975 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,002 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,023 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,044 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,065 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,086 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,107 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,129 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,150 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,171 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,192 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,214 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,236 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,257 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,277 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,299 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,320 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,341 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,363 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,384 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,405 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,426 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,447 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,468 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,489 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,513 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,534 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,555 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,576 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,597 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,619 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,640 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,661 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,682 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,703 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,724 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,746 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,769 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,791 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,812 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,833 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,854 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,875 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,896 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,918 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,939 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,960 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:53,981 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,002 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,027 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,048 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,070 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,090 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,112 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,133 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,153 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,175 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,214 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,235 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,256 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,278 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,300 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,321 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,342 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,363 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,384 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,405 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,426 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,447 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,469 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,490 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,511 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,532 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,553 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,574 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,595 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,616 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,637 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,662 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,683 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,704 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,726 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,747 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,768 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,789 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,810 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,831 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,852 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,873 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:54:54,894 ERROR opponent_changed(line:42) unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\Stats.py", line 37, in opponent_changed
+    f"Opponent has changed! Previous PID: {f'{last_opponent_personality:0x}'}, New PID: {f'{new_pid:0x}'}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2023-07-04 16:56:07,509 INFO <module>(line:82) Running pokebot on Python 3.11
+2023-07-04 16:56:07,511 INFO get_config(line:46) Config is valid!
+2023-07-04 16:56:07,511 INFO <module>(line:91) Mode: coords
+2023-07-04 16:56:07,511 INFO opponent_changed(line:36) Opponent has changed! Previous PID: 0, New PID: ba3b0931
+2023-07-04 16:56:07,511 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 16:56:07,512 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:56:11,339 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:56:11,608 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:56:12,044 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:56:14,067 INFO opponent_changed(line:36) Opponent has changed! Previous PID: ba3b0931, New PID: 776fab1f
+2023-07-04 16:56:14,067 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 16:56:14,067 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:56:22,049 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:56:22,111 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:56:22,545 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:56:23,061 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:56:24,824 INFO opponent_changed(line:36) Opponent has changed! Previous PID: 776fab1f, New PID: eaed311b
+2023-07-04 16:56:24,824 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 16:56:24,825 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:56:33,049 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:56:33,276 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:56:33,752 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:56:35,615 INFO opponent_changed(line:36) Opponent has changed! Previous PID: eaed311b, New PID: 8c32ad0a
+2023-07-04 16:56:35,615 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 16:56:35,615 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:56:37,352 ERROR get_screenshot(line:24) Truncated File Read
+Traceback (most recent call last):
+  File "C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\PngImagePlugin.py", line 975, in load_end
+    self.png.call(cid, pos, length)
+  File "C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\PngImagePlugin.py", line 191, in call
+    return getattr(self, "chunk_" + cid.decode("ascii"))(pos, length)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PngStream' object has no attribute 'chunk_&T'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jaspe\Documents\Emulation\Bizhawk\Lua\Renegade_Platinum_bot\modules\mmf\Screenshot.py", line 20, in get_screenshot
+    screenshot = cv2.cvtColor(numpy.array(screenshot), cv2.COLOR_BGR2RGB)
+                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 673, in __array_interface__
+    new["data"] = self.tobytes()
+                  ^^^^^^^^^^^^^^
+  File "C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 732, in tobytes
+    self.load()
+  File "C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\ImageFile.py", line 280, in load
+    self.load_end()
+  File "C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\PngImagePlugin.py", line 984, in load_end
+    s = ImageFile._safe_read(self.fp, length)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\ImageFile.py", line 583, in _safe_read
+    raise OSError(msg)
+OSError: Truncated File Read
+2023-07-04 16:56:43,830 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:56:44,017 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:56:44,480 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:56:46,321 INFO opponent_changed(line:36) Opponent has changed! Previous PID: 8c32ad0a, New PID: c25ec01d
+2023-07-04 16:56:46,322 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 16:56:46,323 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:56:54,527 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:56:54,898 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:56:55,354 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:56:57,012 INFO opponent_changed(line:36) Opponent has changed! Previous PID: c25ec01d, New PID: a11731af
+2023-07-04 16:56:57,017 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 16:56:57,018 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:58:22,389 INFO <module>(line:82) Running pokebot on Python 3.11
+2023-07-04 16:58:22,390 INFO get_config(line:46) Config is valid!
+2023-07-04 16:58:22,390 INFO <module>(line:91) Mode: coords
+2023-07-04 16:58:22,390 INFO opponent_changed(line:36) Opponent has changed! Previous PID: 0, New PID: a11731af
+2023-07-04 16:58:22,390 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 16:58:22,391 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:58:26,218 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:58:26,836 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:58:28,548 INFO opponent_changed(line:36) Opponent has changed! Previous PID: a11731af, New PID: eb6a3be4
+2023-07-04 16:58:28,548 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 16:58:28,548 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:58:36,659 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:58:36,825 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:58:37,302 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:58:38,975 INFO opponent_changed(line:36) Opponent has changed! Previous PID: eb6a3be4, New PID: 37abe0d3
+2023-07-04 16:58:38,975 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 16:58:38,975 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:58:47,188 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:58:47,767 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:58:48,220 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:58:50,016 INFO opponent_changed(line:36) Opponent has changed! Previous PID: 37abe0d3, New PID: 8924043f
+2023-07-04 16:58:50,020 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 16:58:50,020 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:58:58,137 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:58:58,406 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:58:58,860 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:58:59,360 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:58:59,805 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:59:00,321 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:59:00,921 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:59:02,591 INFO opponent_changed(line:36) Opponent has changed! Previous PID: 8924043f, New PID: 8e7d57d1
+2023-07-04 16:59:02,591 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 16:59:02,591 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:59:10,670 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:59:11,063 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:59:12,719 INFO opponent_changed(line:36) Opponent has changed! Previous PID: 8e7d57d1, New PID: 7acda6ea
+2023-07-04 16:59:12,719 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 16:59:12,719 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:59:20,700 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:59:20,803 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:59:21,260 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:59:21,756 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 16:59:23,601 INFO opponent_changed(line:36) Opponent has changed! Previous PID: 7acda6ea, New PID: f630bacb
+2023-07-04 16:59:23,601 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 16:59:23,601 INFO flee_battle(line:232) Running from battle...
+2023-07-04 16:59:31,650 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 16:59:31,960 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 17:03:52,871 INFO <module>(line:90) Running pokebot on Python 3.11
+2023-07-04 17:03:52,872 INFO get_config(line:46) Config is valid!
+2023-07-04 17:03:52,875 INFO <module>(line:99) Mode: coords
+2023-07-04 17:03:52,875 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 17:03:53,350 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 17:03:53,805 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 17:03:54,487 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 17:03:54,940 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 17:03:56,529 INFO opponent_changed(line:36) Opponent has changed! Previous PID: 0, New PID: af63d89d
+2023-07-04 17:03:56,529 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 17:03:56,529 INFO flee_battle(line:232) Running from battle...
+2023-07-04 17:04:04,609 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 17:04:04,942 INFO exit_handler(line:21) Stopping script and releasing all inputs.
+2023-07-04 17:13:11,182 INFO <module>(line:90) Running pokebot on Python 3.11
+2023-07-04 17:13:11,183 INFO get_config(line:46) Config is valid!
+2023-07-04 17:13:11,183 INFO <module>(line:99) Mode: coords
+2023-07-04 17:13:11,183 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 17:13:14,880 INFO follow_path(line:82) Bot hasn't moved for a while. Is it stuck?
+2023-07-04 17:13:17,815 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 17:13:18,375 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 17:13:19,965 INFO opponent_changed(line:36) Opponent has changed! Previous PID: 0, New PID: 8c2ed1f1
+2023-07-04 17:13:19,966 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 17:13:19,966 INFO flee_battle(line:232) Running from battle...
+2023-07-04 17:13:28,041 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 17:13:30,017 INFO opponent_changed(line:36) Opponent has changed! Previous PID: 8c2ed1f1, New PID: e6fd4baf
+2023-07-04 17:13:30,017 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 17:13:30,017 INFO flee_battle(line:232) Running from battle...
+2023-07-04 17:13:38,070 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 17:13:38,111 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 17:13:38,548 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 17:13:40,465 INFO opponent_changed(line:36) Opponent has changed! Previous PID: e6fd4baf, New PID: c3f2bbe1
+2023-07-04 17:13:40,465 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 17:13:40,468 INFO flee_battle(line:232) Running from battle...
+2023-07-04 17:13:48,529 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 17:13:48,717 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 17:13:49,152 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 17:13:51,197 INFO opponent_changed(line:36) Opponent has changed! Previous PID: c3f2bbe1, New PID: e0fef055
+2023-07-04 17:13:51,197 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 17:13:51,205 INFO flee_battle(line:232) Running from battle...
+2023-07-04 17:14:02,144 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 17:14:02,269 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 17:14:04,193 INFO opponent_changed(line:36) Opponent has changed! Previous PID: e0fef055, New PID: 3aa29ce3
+2023-07-04 17:14:04,209 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 17:14:04,210 INFO flee_battle(line:232) Running from battle...
+2023-07-04 17:14:12,341 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 17:14:12,733 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 17:14:13,167 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 17:14:13,641 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 17:14:14,097 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 17:14:14,571 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 17:14:16,247 INFO opponent_changed(line:36) Opponent has changed! Previous PID: 3aa29ce3, New PID: 8800d86
+2023-07-04 17:14:16,250 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 17:14:16,251 INFO flee_battle(line:232) Running from battle...
+2023-07-04 17:14:24,456 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 17:14:24,621 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 17:14:25,058 INFO follow_path(line:55) Moving to: 139, 846
+2023-07-04 17:14:25,660 INFO follow_path(line:55) Moving to: 145, 846
+2023-07-04 17:14:27,306 INFO opponent_changed(line:36) Opponent has changed! Previous PID: 8800d86, New PID: e1a4221d
+2023-07-04 17:14:27,307 INFO encounter_pokemon(line:54) Identifying Pokemon...
+2023-07-04 17:14:27,311 INFO flee_battle(line:232) Running from battle...
+2023-07-04 17:14:29,265 INFO exit_handler(line:21) Stopping script and releasing all inputs.
+2023-07-05 14:08:33,194 INFO <module>(line:93) Running pokebot on Python 3.11
+2023-07-05 14:08:33,196 INFO get_config(line:47) Config is valid!
+2023-07-05 14:08:33,196 INFO <module>(line:102) Mode: starters
+2023-07-05 14:08:33,196 INFO mode_starters(line:35) Saving game first
+2023-07-05 14:08:33,196 INFO save_game(line:127) Saving the game...
+2023-07-05 14:08:33,196 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 14:08:44,626 INFO mode_starters(line:40) Soft resetting starter Turtwig...
+2023-07-05 14:08:52,215 INFO mode_starters(line:156) Found a Turtwig with an IV sum of 112 and a value of 45427.
+2023-07-05 14:08:52,215 INFO mode_starters(line:159) Not shiny, soft-resetting...
+2023-07-05 14:08:52,215 INFO reset_game(line:147) Resetting...
+2023-07-05 14:09:11,550 INFO mode_starters(line:156) Found a Turtwig with an IV sum of 94 and a value of 59033.
+2023-07-05 14:09:11,550 INFO mode_starters(line:159) Not shiny, soft-resetting...
+2023-07-05 14:09:11,551 INFO reset_game(line:147) Resetting...
+2023-07-05 14:09:30,889 INFO mode_starters(line:121) Shiny Turtwig found!
+2023-07-05 14:10:20,872 INFO save_game(line:127) Saving the game...
+2023-07-05 14:10:20,873 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 14:10:42,705 INFO mode_starters(line:35) Saving game first
+2023-07-05 14:10:42,705 INFO save_game(line:127) Saving the game...
+2023-07-05 14:10:42,705 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 14:10:55,062 INFO mode_starters(line:40) Soft resetting starter Turtwig...
+2023-07-05 14:10:59,844 INFO exit_handler(line:22) Stopping script and releasing all inputs.
+2023-07-05 14:10:59,844 INFO exit_handler(line:22) Stopping script and releasing all inputs.
+2023-07-05 14:12:31,345 INFO <module>(line:93) Running pokebot on Python 3.11
+2023-07-05 14:12:31,347 INFO get_config(line:47) Config is valid!
+2023-07-05 14:12:31,347 INFO <module>(line:102) Mode: starters
+2023-07-05 14:12:31,347 INFO mode_starters(line:35) Saving game first
+2023-07-05 14:12:31,347 INFO save_game(line:127) Saving the game...
+2023-07-05 14:12:31,347 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 14:12:42,673 INFO mode_starters(line:40) Soft resetting starter Chimchar...
+2023-07-05 14:13:19,217 INFO exit_handler(line:22) Stopping script and releasing all inputs.
+2023-07-05 14:13:58,915 INFO <module>(line:93) Running pokebot on Python 3.11
+2023-07-05 14:13:58,917 INFO get_config(line:47) Config is valid!
+2023-07-05 14:13:58,917 INFO <module>(line:102) Mode: starters
+2023-07-05 14:13:58,917 INFO mode_starters(line:35) Saving game first
+2023-07-05 14:13:58,918 INFO save_game(line:127) Saving the game...
+2023-07-05 14:13:58,918 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 14:14:10,317 INFO mode_starters(line:40) Soft resetting starter Chimchar...
+2023-07-05 14:14:18,260 INFO mode_starters(line:121) Shiny Chimchar found!
+2023-07-05 14:15:09,832 INFO save_game(line:127) Saving the game...
+2023-07-05 14:15:09,833 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 14:15:28,264 INFO mode_starters(line:35) Saving game first
+2023-07-05 14:15:28,264 INFO save_game(line:127) Saving the game...
+2023-07-05 14:15:28,265 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 14:15:40,649 INFO mode_starters(line:40) Soft resetting starter Chimchar...
+2023-07-05 14:15:45,541 INFO exit_handler(line:22) Stopping script and releasing all inputs.
+2023-07-05 14:15:45,541 INFO exit_handler(line:22) Stopping script and releasing all inputs.
+2023-07-05 14:39:33,960 INFO <module>(line:95) Running pokebot on Python 3.11
+2023-07-05 14:39:33,962 INFO get_config(line:47) Config is valid!
+2023-07-05 14:39:33,962 INFO <module>(line:104) Mode: starters
+2023-07-05 14:39:33,962 INFO mode_starters(line:35) Saving game first
+2023-07-05 14:39:33,963 INFO save_game(line:127) Saving the game...
+2023-07-05 14:39:33,963 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 14:39:45,351 INFO mode_starters(line:40) Soft resetting starter Chimchar...
+2023-07-05 14:39:53,279 INFO mode_starters(line:160) Found a Chimchar with an IV sum of 98 and a value of 59480.
+2023-07-05 14:39:53,279 INFO mode_starters(line:163) Not shiny, soft-resetting...
+2023-07-05 14:39:53,279 INFO reset_game(line:147) Resetting...
+2023-07-05 14:40:12,626 INFO mode_starters(line:160) Found a Chimchar with an IV sum of 148 and a value of 33102.
+2023-07-05 14:40:12,626 INFO mode_starters(line:163) Not shiny, soft-resetting...
+2023-07-05 14:40:12,626 INFO reset_game(line:147) Resetting...
+2023-07-05 14:40:31,954 INFO mode_starters(line:121) Shiny Chimchar found!
+2023-07-05 14:41:40,190 INFO save_game(line:127) Saving the game...
+2023-07-05 14:41:40,190 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 14:41:51,003 INFO mode_starters(line:35) Saving game first
+2023-07-05 14:41:51,003 INFO save_game(line:127) Saving the game...
+2023-07-05 14:41:51,003 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 14:41:59,198 INFO exit_handler(line:22) Stopping script and releasing all inputs.
+2023-07-05 14:41:59,198 INFO exit_handler(line:22) Stopping script and releasing all inputs.
+2023-07-05 14:43:17,147 INFO <module>(line:97) Running pokebot on Python 3.11
+2023-07-05 14:43:17,149 INFO get_config(line:47) Config is valid!
+2023-07-05 14:43:17,149 INFO <module>(line:106) Mode: starters
+2023-07-05 14:43:17,149 INFO mode_starters(line:35) Saving game first
+2023-07-05 14:43:17,149 INFO save_game(line:127) Saving the game...
+2023-07-05 14:43:17,149 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 14:43:28,458 INFO mode_starters(line:40) Soft resetting for a shiny Chimchar...
+2023-07-05 14:43:36,382 INFO mode_starters(line:160) Found a Chimchar with an IV sum of 48 and a value of 58884.
+2023-07-05 14:43:36,382 INFO mode_starters(line:163) Not shiny, soft-resetting...
+2023-07-05 14:43:36,382 INFO reset_game(line:147) Resetting...
+2023-07-05 14:43:55,713 INFO mode_starters(line:160) Found a Chimchar with an IV sum of 116 and a value of 31236.
+2023-07-05 14:43:55,713 INFO mode_starters(line:163) Not shiny, soft-resetting...
+2023-07-05 14:43:55,713 INFO reset_game(line:147) Resetting...
+2023-07-05 14:44:15,393 INFO mode_starters(line:160) Found a Chimchar with an IV sum of 95 and a value of 43033.
+2023-07-05 14:44:15,393 INFO mode_starters(line:163) Not shiny, soft-resetting...
+2023-07-05 14:44:15,393 INFO reset_game(line:147) Resetting...
+2023-07-05 14:44:35,064 INFO mode_starters(line:160) Found a Chimchar with an IV sum of 107 and a value of 65191.
+2023-07-05 14:44:35,064 INFO mode_starters(line:163) Not shiny, soft-resetting...
+2023-07-05 14:44:35,064 INFO reset_game(line:147) Resetting...
+2023-07-05 14:44:54,741 INFO mode_starters(line:121) Shiny Chimchar found!
+2023-07-05 14:46:04,391 INFO save_game(line:127) Saving the game...
+2023-07-05 14:46:04,391 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 14:46:14,281 INFO mode_starters(line:35) Saving game first
+2023-07-05 14:46:14,281 INFO save_game(line:127) Saving the game...
+2023-07-05 14:46:14,281 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 14:46:26,502 INFO mode_starters(line:40) Soft resetting for a shiny Chimchar...
+2023-07-05 14:46:30,841 INFO exit_handler(line:22) Stopping script and releasing all inputs.
+2023-07-05 14:46:30,841 INFO exit_handler(line:22) Stopping script and releasing all inputs.
+2023-07-05 14:48:24,711 INFO <module>(line:97) Running pokebot on Python 3.11
+2023-07-05 14:48:24,712 INFO get_config(line:47) Config is valid!
+2023-07-05 14:48:24,712 INFO <module>(line:106) Mode: starters
+2023-07-05 14:48:24,712 INFO mode_starters(line:35) Saving game first
+2023-07-05 14:48:24,712 INFO save_game(line:127) Saving the game...
+2023-07-05 14:48:24,713 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 14:48:36,108 INFO mode_starters(line:40) Soft resetting for a shiny Turtwig...
+2023-07-05 14:49:13,293 INFO exit_handler(line:22) Stopping script and releasing all inputs.
+2023-07-05 14:54:01,923 INFO <module>(line:97) Running pokebot on Python 3.11
+2023-07-05 14:54:01,925 INFO get_config(line:47) Config is valid!
+2023-07-05 14:54:01,925 INFO <module>(line:106) Mode: starters
+2023-07-05 14:54:01,926 INFO mode_starters(line:35) Saving game first
+2023-07-05 14:54:01,926 INFO save_game(line:127) Saving the game...
+2023-07-05 14:54:01,926 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 14:54:13,327 INFO mode_starters(line:40) Soft resetting for a shiny Turtwig...
+2023-07-05 14:54:20,946 INFO mode_starters(line:121) Shiny Turtwig found!
+2023-07-05 14:55:29,388 INFO save_game(line:127) Saving the game...
+2023-07-05 14:55:29,388 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 14:55:38,611 INFO mode_starters(line:35) Saving game first
+2023-07-05 14:55:38,611 INFO save_game(line:127) Saving the game...
+2023-07-05 14:55:38,611 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 14:55:50,835 INFO mode_starters(line:40) Soft resetting for a shiny Turtwig...
+2023-07-05 14:55:54,779 INFO exit_handler(line:22) Stopping script and releasing all inputs.
+2023-07-05 14:55:54,779 INFO exit_handler(line:22) Stopping script and releasing all inputs.
+2023-07-05 14:58:47,081 INFO <module>(line:97) Running pokebot on Python 3.11
+2023-07-05 14:58:47,083 INFO get_config(line:47) Config is valid!
+2023-07-05 14:58:47,083 INFO <module>(line:106) Mode: starters
+2023-07-05 14:58:47,083 INFO mode_starters(line:35) Saving game first
+2023-07-05 14:58:47,083 INFO save_game(line:127) Saving the game...
+2023-07-05 14:58:47,083 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 14:58:58,480 INFO mode_starters(line:40) Soft resetting for a shiny Turtwig...
+2023-07-05 14:59:06,068 INFO mode_starters(line:121) Shiny Turtwig found!
+2023-07-05 15:00:18,109 INFO save_game(line:127) Saving the game...
+2023-07-05 15:00:18,109 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 15:00:31,096 INFO exit_handler(line:22) Stopping script and releasing all inputs.
+2023-07-05 15:01:19,576 INFO <module>(line:97) Running pokebot on Python 3.11
+2023-07-05 15:01:19,577 INFO get_config(line:47) Config is valid!
+2023-07-05 15:01:19,579 INFO <module>(line:106) Mode: starters
+2023-07-05 15:01:19,579 INFO mode_starters(line:35) Saving game first
+2023-07-05 15:01:19,579 INFO save_game(line:127) Saving the game...
+2023-07-05 15:01:19,579 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 15:01:30,978 INFO mode_starters(line:40) Soft resetting for a shiny Turtwig...
+2023-07-05 15:01:38,568 INFO mode_starters(line:121) Shiny Turtwig found!
+2023-07-05 15:02:44,253 INFO save_game(line:127) Saving the game...
+2023-07-05 15:02:44,253 INFO start_menu(line:33) Opening start menu entry: save
+2023-07-05 15:02:53,551 INFO exit_handler(line:22) Stopping script and releasing all inputs.
